@@ -1,0 +1,206 @@
+.sbisru-Tariff {
+    background: var(--color-white);
+    z-index: 1;
+    box-sizing: border-box;
+    border-radius: 20px;
+    height: 100%;
+    position: relative;
+    box-shadow: 0 4px 31px #00000026
+}
+
+.sbisru-Tariff-item {
+    height: 100%
+}
+
+@media (min-width:1025px) and (max-width:1203px) {
+    .sbisru-Tariff-item:not(:last-child) .sbisru-Tariff-descr {
+        padding-bottom: 32px
+    }
+}
+
+.sbisru-Tariff-title--orange {
+    color: var(--color-secondary)
+}
+
+.sbisru-Tariff-descr {
+    white-space: pre-wrap;
+    font-weight: 400
+}
+
+@media (min-width:813px) and (max-width:1203px) {
+    .sbisru-Tariff-descr {
+        font-size: 15px
+    }
+}
+
+@media (min-width:1024px) {
+    .sbisru-Tariff-price {
+        font-size: 45px
+    }
+}
+
+.sbisru-Tariff-price-period {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px
+}
+
+@media (min-width:1025px) {}
+
+@media (min-width:1025px) and (max-width:1204px) {}
+
+@media (min-width:1024px) {}
+
+@media (max-width:812px) {}
+
+.sbisru-Tariff-item:not(:first-child) .sbisru-Tariff-price-period {
+    padding-left: 0
+}
+
+@media (max-width:812px) {}
+
+.sbisru-Tariff-opportunities {
+    font-size: 16px;
+    line-height: 21px
+}
+
+.sbisru-Tariff-opportunities-item {
+    color: var(--text-color-main)
+}
+
+.sbisru-Tariff-opportunities-icon {
+    width: 16px;
+    height: 16px;
+    padding-right: 12px
+}
+
+.sbisru-Tariff-opportunities--disabled {
+    color: #8e9295;
+    padding-left: 28px
+}
+
+.sbisru-Tariff-btn {
+    width: 100%
+}
+
+.sbisru-Tariff-width {
+    width: 266px
+}
+
+@media (max-width:616px) {
+    .sbisru-Tariff-scroll-col {
+        flex-basis: auto;
+        max-width: none
+    }
+
+    .sbisru-Tariff-scroll-container {
+        flex-wrap: nowrap;
+        margin-bottom: -80px;
+        margin-left: -16px;
+        margin-right: -16px;
+        padding-bottom: 80px;
+        padding-left: 24px;
+        padding-right: 24px;
+        overflow-x: scroll
+    }
+
+    .sbisru-Tariff-scroll-wrapper {
+        margin-left: -16px;
+        margin-right: -16px;
+        padding-right: 16px;
+        overflow: hidden
+    }
+}
+
+@keyframes fadeOutIn {
+    50% {
+        opacity: .3
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+@media (max-width:616px) {
+    .sbisru-Expansion {
+        padding-top: 18px
+    }
+}
+
+.sbisru-Expansion-text {
+    font-size: 16px;
+    line-height: 23px
+}
+
+.sbisru-Expansion-title,
+.sbisru-Expansion-price {
+    color: var(--text-color-main);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px
+}
+
+.sbisru-Expansion-price {
+    display: inline-block
+}
+
+.sbisru-Expansion-price-title {
+    opacity: .5;
+    font-weight: 400
+}
+
+@media (min-width:1025px) {}
+
+.sbisru-Expansion-price-title--nowrap .sbisru-Expansion-price-title {
+    white-space: nowrap
+}
+
+.sbisru-Expansion-price__item {
+    max-width: 86px
+}
+
+.sbisru-Expansion-after-price {
+    color: var(--text-color-main-3);
+    font-size: var(--h7-fs);
+    font-weight: 400
+}
+
+.sbisru-Expansion-tile {
+    box-sizing: border-box;
+    background-color: var(--color-white);
+    border-radius: var(--section-radius);
+    flex-direction: column;
+    height: 100%;
+    position: relative;
+    overflow: hidden
+}
+
+@media (max-width:616px) {
+    .sbisru-Expansion-tile {
+        border-radius: var(--section-radius-sm)
+    }
+}
+
+.sbisru-Expansion-tile--padding {
+    padding: 18px 20px 8px
+}
+
+@media (max-width:616px) {
+    .sbisru-Expansion-tile--padding {
+        padding-top: 8px;
+        padding-left: 16px;
+        padding-right: 16px
+    }
+
+    .sbisru-Expansion-width {
+        min-width: 299px;
+        min-height: 238px
+    }
+}
+
+@media (max-width:1023px) {}
+
+@media (max-width:616px) {}
+
+@media (max-width:1024px) {}

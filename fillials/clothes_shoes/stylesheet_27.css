@@ -1,0 +1,895 @@
+.sbisru-Retail-main--offset {
+    padding-top: 88px
+}
+
+@media (max-width:616px) {
+    .sbisru-Retail-main--offset {
+        padding-top: 64px
+    }
+}
+
+.sbisru-Retail-main {
+    font-style: normal;
+    font-weight: 400;
+    font-size: var(--text-main-fs);
+    line-height: var(--text-main-lh);
+    color: var(--text-color-main-3);
+    padding-bottom: 16px
+}
+
+.sbisru-Retail-main--bg {
+    background-color: var(--page-bg)
+}
+
+.sbisru-Retail-cases-first-block {
+    margin-top: calc(var(--section-radius)*-2);
+    padding-top: 56px;
+    padding-bottom: 160px
+}
+
+@media (max-width:812px) {
+    .sbisru-Retail-cases-first-block {
+        padding-top: 32px;
+        padding-bottom: 88px
+    }
+}
+
+@media (max-width:616px) {
+    .sbisru-Retail-cases-first-block {
+        padding-bottom: 100px
+    }
+}
+
+.sbisru-Retail--relative {
+    position: relative
+}
+
+.sbisru-Retail--lowercase {
+    /* text-transform: uppercase */
+}
+
+@media (max-width:812px) {}
+
+.sbisru-Retail--hidden {
+    overflow: hidden
+}
+
+@media (max-width:812px) {
+    .sbisru-Retail--wrap {
+        flex-wrap: wrap
+    }
+}
+
+.sbisru-Retail-image {
+    max-width: 100%;
+    height: auto;
+    display: block
+}
+
+@media (min-width:1024px) {
+    .sbisru-Retail-image--wd {
+        max-width: initial
+    }
+}
+
+.sbisru-Retail-white-block {
+    background-color: var(--color-white);
+    border-radius: var(--section-radius)
+}
+
+.sbisru-Retail-main-block {
+    background-color: var(--page-bg);
+    border-radius: var(--section-radius)
+}
+
+.sbisru-Retail-light-gray-block {
+    background-color: var(--bg-section-gray);
+    border-radius: var(--section-radius)
+}
+
+.sbisru-Retail-dark-block {
+    background-color: var(--color-dark-blue);
+    border-radius: var(--section-radius)
+}
+
+@media (max-width:616px) {}
+
+.sbisru-Retail-pt56 {
+    padding-top: 56px
+}
+
+@media (max-width:812px) {
+    .sbisru-Retail-pt56 {
+        padding-top: 32px
+    }
+}
+
+@media (max-width:616px) {
+    .sbisru-Retail-pt56 {
+        padding-top: 24px
+    }
+}
+
+.sbisru-Retail-pb100 {
+    margin-top: -60px;
+    padding-bottom: 160px
+}
+
+@media (max-width:812px) {
+    .sbisru-Retail-pb100 {
+        padding-bottom: 116px
+    }
+}
+
+@media (max-width:616px) {
+    .sbisru-Retail-pb100 {
+        padding-bottom: 100px
+    }
+}
+
+.sbisru-Retail--negative-mb {
+    margin-bottom: -60px
+}
+
+@media (max-width:616px) {
+    .sbisru-Retail--negative-mb {
+        margin-bottom: -80px
+    }
+}
+
+.sbisru-Retail-pb100--special {
+    margin-top: -60px;
+    padding-bottom: 100px
+}
+
+@media (max-width:812px) {
+    .sbisru-Retail-pb100--special {
+        padding-bottom: 86px
+    }
+}
+
+@media (max-width:616px) {
+    .sbisru-Retail-pb100--special {
+        padding-bottom: 80px
+    }
+}
+
+@media (min-width:812px) {
+    .sbisru-Retail-block--upper {
+        z-index: 1
+    }
+
+    .sbisru-Retail-block--lower {
+        z-index: 0
+    }
+}
+
+@media (max-width:616px) {}
+
+.sbisru-Retail-tile {
+    box-sizing: border-box;
+    background-color: var(--color-white);
+    border-radius: var(--section-radius);
+    height: 100%;
+    min-height: 234px;
+    position: relative;
+    overflow: hidden
+}
+
+@media (min-width:1024px) {
+    .sbisru-Retail-tile {
+        min-height: 272px
+    }
+}
+
+@media (max-width:616px) {
+    .sbisru-Retail-tile {
+        border-radius: var(--section-radius-sm)
+    }
+}
+
+.sbisru-Retail-tile--dark {
+    background-color: var(--color-dark-blue)
+}
+
+@media (min-width:421px) {
+    .sbisru-Retail-tile--min {
+        min-height: 130px
+    }
+}
+
+@media (min-width:1025px) {
+    .sbisru-Retail-tile--big {
+        min-height: 556px
+    }
+}
+
+@media (min-width:616px) and (max-width:1024px) {
+    .sbisru-Retail-tile--big {
+        min-height: 440px
+    }
+}
+
+@media (max-width:812px) {}
+
+@media (max-width:616px) {
+    .sbisru-Retail-tile--maximize-sm {
+        min-height: 0
+    }
+}
+
+.sbisru-Retail-tile--padding {
+    padding: 18px 20px 8px
+}
+
+@media (max-width:616px) {
+    .sbisru-Retail-tile--padding {
+        padding-top: 8px;
+        padding-left: 16px;
+        padding-right: 16px
+    }
+}
+
+.sbisru-Retail-tile--padding-r0 {
+    padding-right: 0
+}
+
+@media (max-width:812px) {
+    .sbisru-Retail-tile--padding-r0 {
+        padding-right: 20px
+    }
+}
+
+@media (max-width:616px) {
+    .sbisru-Retail-tile--padding-r0 {
+        padding-right: 16px
+    }
+}
+
+.sbisru-Retail-tile--padding-b0 {
+    padding-bottom: 0
+}
+
+.sbisru-Retail-tile--padding-t0 {
+    padding-top: 0
+}
+
+@media (min-width:616px) and (max-width:812px) {
+    .sbisru-Retail-tile--spec {
+        min-height: 234px
+    }
+}
+
+@media (max-width:616px) {
+    .sbisru-Retail-tile--spec {
+        min-height: 144px
+    }
+}
+
+.sbisru-Retail-colored-circle {
+    border-radius: 50%;
+    width: 1px;
+    height: 1px;
+    position: absolute
+}
+
+.sbisru-Retail-colored-circle--RuleMoney-1 {
+    top: 48%;
+    left: 25%;
+    box-shadow: 0 0 450px 250px #f8704526
+}
+
+.sbisru-Retail-colored-circle--RuleMoney-2 {
+    top: 50%;
+    right: 23%;
+    box-shadow: 0 0 250px 200px #09aeb326
+}
+
+@media (max-width:812px) {
+    .sbisru-Retail-colored-circle--RuleMoney-2 {
+        top: 85%;
+        right: 0
+    }
+}
+
+@media (max-width:616px) {
+    .sbisru-Retail-colored-circle--RuleMoney-2 {
+        right: 15%;
+        box-shadow: 0 0 250px 250px #f870451a
+    }
+}
+
+.sbisru-Retail-image--right {
+    margin-left: auto
+}
+
+.sbisru-Retail-image--center {
+    margin-left: auto;
+    margin-right: auto
+}
+
+.sbisru-Retail--height100 {
+    box-sizing: border-box;
+    height: 100%
+}
+
+@media (min-width:616px) and (max-width:812px) {}
+
+.sbisru-Retail-text--white-opacity {
+    color: var(--color-gray-74)
+}
+
+@media (max-width:616px) {
+    .sbisru-Retail--order-sm {
+        order: 3
+    }
+}
+
+.sbisru-Retail-maxwidth-3 {
+    box-sizing: border-box;
+    max-width: 282px
+}
+
+.sbisru-Retail-maxwidth-5 {
+    box-sizing: border-box;
+    max-width: 478px
+}
+
+@media (max-width:616px) {}
+
+@media (max-width:616px) {}
+
+@media (max-width:616px) {}
+
+@media (max-width:616px) {}
+
+@media (max-width:616px) {}
+
+@media (max-width:616px) {}
+
+@media (max-width:616px) {}
+
+@media (max-width:616px) {}
+
+@media (max-width:812px) {}
+
+@media (max-width:812px) {}
+
+@media (max-width:812px) {}
+
+@media (max-width:812px) {}
+
+@media (max-width:616px) {}
+
+.sbisru-Retail-li {
+    padding-left: 16px;
+    position: relative
+}
+
+.sbisru-Retail-li:before {
+    content: "•";
+    position: absolute;
+    top: 0;
+    left: 0
+}
+
+@media (min-width:1025px) {
+    .ws-is-no-touch .sbisru-Retail--scrollbar-fix {
+        padding-bottom: 143px
+    }
+}
+
+.sbisru-Retail-automation-list {
+    border-radius: var(--section-radius)
+}
+
+@media (max-width:616px) {
+    .sbisru-Retail-automation-list {
+        border-radius: var(--section-radius-sm)
+    }
+}
+
+.sbisru-Retail-automation-list-white {
+    background-color: var(--color-white)
+}
+
+.sbisru-Retail-automation-list-pb {
+    padding-bottom: 100px
+}
+
+@media (max-width:812px) {
+    .sbisru-Retail-automation-list-pb {
+        padding-bottom: 56px
+    }
+}
+
+@media (max-width:616px) {
+    .sbisru-Retail-automation-list-pb {
+        padding-bottom: 40px
+    }
+}
+
+.sbisru-Retail-automation-list__number {
+    color: var(--color-white);
+    background-color: var(--color-secondary);
+    font-size: 22px;
+    font-weight: var(--font-weight-bold);
+    border-radius: 50%;
+    flex-basis: 40px;
+    max-width: 40px;
+    height: 40px;
+    position: relative
+}
+
+.sbisru-Retail-automation-list__padding {
+    padding: 20px 18px 32px
+}
+
+@media (max-width:616px) {
+    .sbisru-Retail-automation-list__padding {
+        padding: 8px 16px 16px
+    }
+}
+
+@media (max-width:1024px) {}
+
+@media (max-width:616px) {}
+
+@media (max-width:812px) {}
+
+@media (max-width:616px) {}
+
+@media (max-width:812px) {}
+
+@media (max-width:616px) {}
+
+@media (max-width:812px) {}
+
+@media (min-width:616px) {}
+
+@media (max-width:616px) {}
+
+@media (max-width:812px) {}
+
+@media (max-width:616px) {}
+
+@media (max-width:812px) {}
+
+.sbisru-Retail__link-more {
+    color: var(--color-secondary);
+    display: inline-block
+}
+
+.sbisru-Retail__link-more-text {
+    border-bottom: 1px solid #0000
+}
+
+.ws-is-hover .sbisru-Retail__link-more:hover .sbisru-Retail__link-more-text,
+.ws-is-touch .sbisru-Retail__link-more:active .sbisru-Retail__link-more-text {
+    border-bottom: 1px solid var(--color-secondary)
+}
+
+.sbisru-Retail__link-more__icon {
+    height: .7em;
+    margin-left: 4px;
+    font-family: cbuc-icons, sans-serif;
+    font-size: .7em;
+    line-height: .7em;
+    display: inline-block
+}
+
+@media (max-width:812px) and (min-width:617px) {}
+
+.sbisru-Retail-image--courier {
+    border-radius: 16px
+}
+
+.sbisru-Retail--inline {
+    display: inline
+}
+
+@media (max-width:616px) {}
+
+@media (max-width:616px) {}
+
+@media (max-width:812px) {
+    .sbisru-Retail .sbisru-Retail-ClothesShoes-banner {
+        background-position: 40px
+    }
+}
+
+@media (max-width:616px) {
+    .sbisru-Retail .sbisru-Retail-ClothesShoes-banner {
+        background-position: right -80px center;
+        background-size: auto 120%
+    }
+}
+
+@media (min-width:1024px) {
+    .sbisru-Retail-Banner--title-width {
+        max-width: 674px
+    }
+}
+
+@media (max-width:1024px) and (min-width:812px) {
+    .sbisru-Retail-Banner--title-width {
+        max-width: 576px
+    }
+}
+
+@media (max-width:420px) {
+    .sbisru-Retail-Banner--title-width {
+        max-width: 282px
+    }
+}
+
+@media (min-width:616px) and (max-width:812px) {
+    .sbisru-Retail-ClothesShoes-image--kassa {
+        max-width: 140%
+    }
+
+    .sbisru-Retail-ClothesShoes-image--catlog {
+        max-width: 115%
+    }
+}
+
+@media (max-width:1204px) {}
+
+@media (min-width:616px) and (max-width:812px) {}
+
+@media (max-width:1203px) {
+    .sbisru-Retail-ClothesShoes-image--labels {
+        max-width: none
+    }
+}
+
+@media (min-width:813px) and (max-width:1024px) {
+    .sbisru-Retail-ClothesShoes-image--labels {
+        height: 100%;
+        padding-top: 28px
+    }
+}
+
+@media (min-width:616px) and (max-width:812px) {
+    .sbisru-Retail-ClothesShoes-image--labels {
+        max-width: 125%
+    }
+}
+
+@media (max-width:1203px) {}
+
+@media (min-width:813px) and (max-width:1024px) {}
+
+@media (min-width:616px) and (max-width:812px) {
+    .sbisru-Retail-ClothesShoes-image--loyalty {
+        max-width: 165%;
+        padding-top: 70px
+    }
+}
+
+@media (max-width:616px) {
+    .sbisru-Retail-ClothesShoes-image--loyalty {
+        max-width: 125%;
+        padding-top: 64px
+    }
+}
+
+@media (min-width:616px) and (max-width:812px) {
+    .sbisru-Retail-ClothesShoes-image--finance {
+        max-width: 170%
+    }
+}
+
+@media (min-width:812px) {
+    .sbisru-Retail-ClothesShoes-image--app {
+        margin-top: -5%
+    }
+}
+
+@media (max-width:812px) {
+    .sbisru-Retail-ClothesShoes-image--app {
+        max-width: 67%
+    }
+}
+
+@media (min-width:616px) and (max-width:812px) {
+    .sbisru-Retail-ClothesShoes-image--video {
+        display: none
+    }
+}
+
+@media (max-width:616px) {
+    .sbisru-Retail-ClothesShoes-image--video {
+        display: block
+    }
+}
+
+@media (min-width:812px) and (max-width:1024px) {
+    .sbisru-Retail-ClothesShoes-image--wd {
+        width: 50%
+    }
+}
+
+@media (min-width:1024px) {
+    .sbisru-Retail-ClothesShoes-image--sale {
+        margin-right: 40px
+    }
+}
+
+@media (min-width:812px) and (max-width:1023px) {
+    .sbisru-Retail-ClothesShoes-image--sale {
+        margin-right: 24px
+    }
+}
+
+.sbisru-Retail-ClothesShoes-maxwidth-4 {
+    box-sizing: border-box;
+    max-width: 380px
+}
+
+@media (max-width:812px) {
+    .sbisru-Retail-ClothesShoes-maxwidth-4 {
+        max-width: 100%
+    }
+}
+
+@media (max-width:812px) {}
+
+.sbisru-Retail-ClothesShoes-gray-block {
+    border-radius: var(--section-radius);
+    background-color: #f9f9fb
+}
+
+.sbisru-Retail-ClothesShoes-colored-circle--1 {
+    top: 15%;
+    right: 22%;
+    box-shadow: 0 0 300px 225px #d3536826
+}
+
+.sbisru-Retail-ClothesShoes-colored-circle--2 {
+    top: 30%;
+    left: 27%;
+    box-shadow: 0 0 500px 340px #316ee421
+}
+
+.sbisru-Retail-ClothesShoes-colored-circle--3 {
+    top: 50%;
+    right: 30%;
+    box-shadow: 0 0 500px 340px #24fff221
+}
+
+@media (max-width:812px) {
+    .sbisru-Retail-ClothesShoes-colored-circle--3 {
+        box-shadow: 0 0 500px 220px #24fff221
+    }
+}
+
+.sbisru-Retail-ClothesShoes-colored-circle--4 {
+    top: 75%;
+    left: 35%;
+    box-shadow: 0 0 500px 340px #ffcc994d
+}
+
+@media (max-width:812px) {
+    .sbisru-Retail-ClothesShoes-colored-circle--4 {
+        box-shadow: 0 0 500px 250px #ffcc994d
+    }
+}
+
+@media (max-width:616px) {
+    .sbisru-Retail-ClothesShoes-colored-circle--4 {
+        top: 65%
+    }
+}
+
+.sbisru-Retail-ClothesShoes-colored-circle--5 {
+    top: 85%;
+    right: 23%;
+    box-shadow: 0 0 500px 340px #a3c62621
+}
+
+@media (max-width:812px) {
+    .sbisru-Retail-ClothesShoes-colored-circle--5 {
+        right: 5%;
+        box-shadow: 0 0 500px 290px #a3c62621
+    }
+}
+
+.sbisru-Retail-ClothesShoes-colored-circle--7 {
+    top: 45%;
+    right: 23%;
+    box-shadow: 0 0 500px 150px #ffcc994d
+}
+
+.sbisru-Retail-ClothesShoes-colored-circle--8 {
+    top: 25%;
+    left: 23%;
+    box-shadow: 0 0 500px 150px #316ee421
+}
+
+.sbisru-Retail-ClothesShoes-colored-circle--9 {
+    top: 65%;
+    left: 30%;
+    box-shadow: 0 0 500px 400px #d3536826
+}
+
+@media (max-width:812px) {
+    .sbisru-Retail-ClothesShoes-colored-circle--9 {
+        left: 15%
+    }
+}
+
+.sbisru-Retail-ClothesShoes-colored-circle--10 {
+    bottom: 0;
+    left: 10%;
+    box-shadow: 0 0 500px 400px #24fff21a
+}
+
+@media (max-width:812px) {
+    .sbisru-Retail-ClothesShoes-colored-circle--10 {
+        bottom: 25%;
+        left: 0;
+        box-shadow: 0 0 500px 200px #24fff21a
+    }
+}
+
+.sbisru-Retail-ClothesShoes-colored-circle--11 {
+    bottom: 20%;
+    right: 15%;
+    box-shadow: 0 0 500px 400px #316ee421
+}
+
+@media (max-width:812px) {
+    .sbisru-Retail-ClothesShoes-colored-circle--11 {
+        bottom: 35%;
+        right: 0
+    }
+}
+
+.sbisru-Retail-ClothesShoes-colored-circle--12 {
+    top: 27%;
+    left: 25%;
+    box-shadow: 0 0 500px 250px #4a7ee266
+}
+
+@media (min-width:2408px) {
+    .sbisru-Retail-ClothesShoes-colored-circle--12 {
+        opacity: .35
+    }
+}
+
+@media (max-width:616px) {
+    .sbisru-Retail-ClothesShoes-colored-circle--12 {
+        top: 12%;
+        box-shadow: 0 0 500px 330px #4a7ee266
+    }
+}
+
+.sbisru-Retail-ClothesShoes-colored-circle--13 {
+    top: 40%;
+    right: 35%;
+    box-shadow: 0 0 530px 350px #11e0e866
+}
+
+@media (min-width:2408px) {
+    .sbisru-Retail-ClothesShoes-colored-circle--13 {
+        opacity: .35
+    }
+}
+
+.sbisru-Retail-ClothesShoes-colored-circle--14 {
+    top: 60%;
+    left: 20%;
+    box-shadow: 0 0 400px 150px #f8704580
+}
+
+@media (min-width:2408px) {
+    .sbisru-Retail-ClothesShoes-colored-circle--14 {
+        opacity: .35
+    }
+}
+
+.sbisru-Retail-ClothesShoes-colored-circle--15 {
+    bottom: 10%;
+    left: 50%;
+    box-shadow: 0 0 534px 200px #619fe566
+}
+
+@media (max-width:616px) {
+    .sbisru-Retail-ClothesShoes-colored-circle--15 {
+        bottom: 17%;
+        left: 80%;
+        box-shadow: 0 0 500px 330px #11e0e866
+    }
+}
+
+.sbisru-Retail-ClothesShoes-colored-circle--16 {
+    top: 50%;
+    left: 30%;
+    box-shadow: 0 0 500px 220px #24fff233
+}
+
+@media (max-width:812px) {
+    .sbisru-Retail-ClothesShoes-colored-circle--16 {
+        top: 80%;
+        left: 20%
+    }
+}
+
+.sbisru-Retail-ClothesShoes-colored-circle--17 {
+    top: 50%;
+    right: 30%;
+    box-shadow: 0 0 500px 470px #8e44ad14
+}
+
+.sbisru-Retail-ClothesShoes-colored-circle--18 {
+    top: 17%;
+    left: 25%;
+    box-shadow: 0 0 500px 215px #f8704526
+}
+
+.sbisru-Retail-ClothesShoes-colored-circle--19 {
+    top: 10%;
+    right: 10%;
+    box-shadow: 0 0 500px 240px #4557f814
+}
+
+.sbisru-Retail-ClothesShoes-colored-circle--20 {
+    top: 60%;
+    left: 10%;
+    box-shadow: 0 0 500px 320px #8e44ad14
+}
+
+.sbisru-Retail-ClothesShoes-colored-circle--21 {
+    top: 65%;
+    right: 25%;
+    box-shadow: 0 0 550px 320px #24fff21f
+}
+
+.sbisru-Retail-ClothesShoes-colored-circle--22 {
+    bottom: 0%;
+    right: 25%;
+    box-shadow: 0 0 200px 150px #4a7ee226
+}
+
+.sbisru-Retail-ClothesShoes-colored-circle--23 {
+    bottom: 80%;
+    right: 10%;
+    box-shadow: 0 0 500px 200px #24fff212
+}
+
+@media (max-width:812px) {
+    .sbisru-Retail-ClothesShoes-colored-circle--23 {
+        left: -25%
+    }
+}
+
+.sbisru-Retail-ClothesShoes-colored-circle--24 {
+    bottom: 22%;
+    right: 25%;
+    box-shadow: 0 0 550px 330px #694ae21a
+}
+
+.sbisru-Retail-ClothesShoes-colored-circle--25 {
+    bottom: 25%;
+    left: 32%;
+    box-shadow: 0 0 500px 230px #fc93
+}
+
+.sbisru-Retail-ClothesShoes-colored-circle--26 {
+    bottom: 5%;
+    left: 5%;
+    box-shadow: 0 0 500px 445px #d353680d
+}
+
+.sbisru-Retail-ClothesShoes-colored-circle--27 {
+    top: 5%;
+    right: 28%;
+    box-shadow: 0 0 500px 250px #619fe51a
+}
+
+.sbisru-Retail-ClothesShoes-colored-circle--28 {
+    bottom: 22%;
+    right: 28%;
+    box-shadow: 0 0 500px 250px #24fff20d
+}

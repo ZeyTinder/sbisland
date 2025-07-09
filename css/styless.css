@@ -1,0 +1,188 @@
+/* Скрываем «длинный» вариант текста и список по умолчанию */
+.sbisru-Header-Submenu__longest-value,
+.sbisru-Header-Submenu__items {
+  display: none;
+}
+
+/* Когда js добавляет класс open, показываем */
+.sbisru-Header-Submenu.open > .sbisru-Header-Submenu__longest-value {
+  display: flex;               /* или block, если flex избыточен */
+  align-items: center;         /* чтобы текст и иконка выравнивались */
+}
+
+.sbisru-Header-Submenu.open > .sbisru-Header-Submenu__items {
+  display: block;
+  position: absolute;          /* свободное выскакивание поверх контента */
+  top: 100%;                   /* сразу под родительским блоком */
+  left: 0;
+  background: #fff;            /* белый фон для выпадашки */
+  border: 1px solid #ddd;      /* тонкая граница */
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  margin-top: 0.5em;
+  padding: 0.5em 0;
+  z-index: 1000;               /* чтобы точно над всеми */
+  border-radius: 10px;
+}
+
+/* Стили для самих пунктов списка */
+.sbisru-Header-Submenu__items .sbisru-Header-Submenu__item {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sbisru-Header-Submenu__items .sbisru-Header-Submenu__link {
+  display: block;
+  padding: 0.5em 1em;
+  white-space: nowrap;
+  color: #333;
+  text-decoration: none;
+}
+
+.sbisru-Header-Submenu__items .sbisru-Header-Submenu__link:hover {
+  background: #f5f5f5;
+}
+
+
+/* гамбургер */
+
+/* Скрываем меню по умолчанию на мобилках */
+/* --- Десктопное меню --- */
+
+@media (min-width: 769px) {
+  #burger-toggle {
+    display: none;
+  }
+
+  #mobile-menu {
+    display: flex !important;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    position: static;
+    background: none;
+    box-shadow: none;
+    width: auto;
+    padding: 0;
+  }
+
+  #mobile-menu .sbisru-Header__menu-item {
+    margin-left: 1rem;
+    width: auto;
+  }
+}
+
+/* --- Мобильное меню --- */
+@media (max-width: 768px) {
+  #mobile-menu {
+    background-color: #e8e8ed;
+    display: block; /* всегда block, управлять видимостью будем иначе */
+    overflow: hidden;
+    max-height: 0;
+    opacity: 0;
+    transition: max-height 0.3s ease, opacity 0.3s ease;
+    flex-direction: column;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    width: 100%;
+    padding: 0;
+    z-index: 999;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 0 0 20px 20px;
+    pointer-events: none; /* чтобы нельзя было кликнуть когда скрыто */
+  }
+
+  #mobile-menu.open {
+    max-height: 500px; /* достаточно для всего меню */
+    opacity: 1;
+    pointer-events: auto;
+  }
+
+  #mobile-menu .sbisru-Header__menu-item {
+    width: 100%;
+    margin: 0;
+    padding: 1rem;
+  }
+
+  #mobile-menu .sbisru-Header__menu-link {
+    display: block;
+    width: 100%;
+  }
+}
+
+/* контакт в подменю */
+.contacts-panel {
+  position: absolute;
+  top: 100%;
+  right: 23%;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  padding: 1.5rem 1.25rem;
+  width: 280px;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  color: #1d1d1f;
+  line-height: 1.4;
+  z-index: 1000;
+  transition: opacity 0.2s ease;
+}
+
+.contacts-panel strong {
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 700;
+  display: block;
+  margin-bottom: 0.25rem;
+  font-family: "Inter",sans-serif;
+
+}
+
+.contacts-panel a {
+  color: #005bd1;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 1rem;
+}
+
+.contacts-panel span {
+  display: block;
+  margin: 0.2rem 0;
+  font-family: "Inter",sans-serif;
+}
+
+.contacts-panel .secondary {
+  color: #999;
+  font-size: 13px;
+}
+
+@media (max-width: 767px) {
+  .contacts-panel {
+    position: fixed;
+    bottom: 0;
+    top: auto;
+    right: 0;
+    left: 0;
+    width: 100%;
+    max-height: 80vh;
+    border-radius: 20px 20px 0 0;
+    padding: 1.5rem 1.25rem;
+    box-shadow: 0 -4px 12px rgba(0,0,0,0.2);
+    overflow-y: auto;
+    z-index: 9999;
+  }
+
+  .contacts-panel__handle {
+    width: 40px;
+    height: 5px;
+    background-color: #ccc;
+    border-radius: 999px;
+    margin: 0 auto 1rem auto;
+  }
+}
+
+.hidden {
+  display: none;
+}
+

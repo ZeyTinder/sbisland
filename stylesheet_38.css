@@ -1,0 +1,118 @@
+.sbisru-Button {
+    cursor: pointer;
+    -webkit-user-select: none;
+    user-select: none;
+    border-style: solid;
+    border-width: 1px;
+    justify-content: center;
+    align-items: center;
+    font-family: inherit;
+    display: flex
+}
+
+.sbisru-Button:before {
+    content: " ";
+    width: 0
+}
+
+.sbisru-Button__caption {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden
+}
+
+.sbisru-Button:active,
+.ws-is-hover .sbisru-Button:hover {
+    transition: all var(--anim-time) ease-in-out var(--anim-delay)
+}
+
+.sbisru-Button--primary {
+    border-color: var(--color-secondary);
+    background-color: var(--btn-primary-bg);
+    color: var(--btn-primary-color)
+}
+
+.sbisru-Button--primary:active,
+.ws-is-hover .sbisru-Button--primary:hover {
+    background-color: var(--btn-primary-bg__active);
+    box-shadow: var(--btn-primary-shadow__active);
+    color: var(--btn-primary-color__active)
+}
+
+.sbisru-Button--secondary {
+    border-color: var(--btn-secondary-bg);
+    background-color: var(--btn-secondary-bg);
+    color: var(--color-white)
+}
+
+.sbisru-Button--secondary:active,
+.ws-is-hover .sbisru-Button--secondary:hover {
+    border-color: var(--btn-secondary-bg__active);
+    background-color: var(--btn-secondary-bg__active);
+    box-shadow: var(--btn-secondary-shadow__active)
+}
+
+.sbisru-Button-size--l {
+    border-radius: 30px;
+    padding: 15px 32px
+}
+
+@media (max-width:616px) {
+    .sbisru-Button-size--l {
+        padding: 8px 32px
+    }
+}
+
+@media (max-width:616px) {}
+
+.sbisru-Button-size--s {
+    border-radius: 20px;
+    padding: 7px 24px
+}
+
+@media (max-width:616px) {
+    .sbisru-Button-size--s {
+        border-radius: 28px;
+        padding: 15px 24px
+    }
+}
+
+.sbisru-Button-size--xs {
+    border-radius: 16px;
+    padding: 4px 20px
+}
+
+@media (max-width:616px) {
+    .sbisru-Button-size--xs {
+        border-radius: 28px;
+        padding: 4px 16px
+    }
+}
+
+@media (max-width:812px) {}
+
+.sbisru-Button-fontSize--m,
+.sbisru-Button-fontSize--m:before {
+    font-size: 17px;
+    line-height: 24px
+}
+
+.sbisru-Button-fontSize--s,
+.sbisru-Button-fontSize--s:before {
+    font-size: 16px;
+    line-height: 24px
+}
+
+.sbisru-Button-fontSize--xs,
+.sbisru-Button-fontSize--xs:before {
+    font-size: 16px;
+    line-height: 22px
+}
+
+@media (max-width:616px) {
+
+    .sbisru-Button-fontSize--xs,
+    .sbisru-Button-fontSize--xs:before {
+        font-size: 15px
+    }
+}

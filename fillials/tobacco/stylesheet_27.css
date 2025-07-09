@@ -1,0 +1,145 @@
+.sbisru-Carousel {
+    height: 100%;
+    margin-right: -10px;
+    padding-right: 10px;
+    overflow-y: clip
+}
+
+.sbisru-Carousel--relative {
+    position: relative
+}
+
+.sbisru-Carousel-contents {
+    display: contents
+}
+
+@media (max-width:616px) {
+    .sbisru-Carousel-contents:not(:first-child) {
+        display: none
+    }
+}
+
+.sbisru-Carousel-h100 {
+    height: 100%
+}
+
+@media (min-width:617px) {
+    .sbisru-Carousel--animated {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 10px
+    }
+
+    .sbisru-Carousel--animated.animated {
+        animation: 15s linear infinite translate-wrap
+    }
+}
+
+.ws-is-hover .sbisru-Carousel:hover .sbisru-Carousel--animated {
+    animation-play-state: paused
+}
+
+.sbisru-Carousel-item-wrapper {
+    flex-basis: 100%;
+    width: 100%
+}
+
+.sbisru-Carousel-item {
+    background: var(--color-item);
+    border: 1px solid var(--color-border);
+    color: var(--color-text);
+    border-radius: 15px;
+    padding: 4px 8px 12px 12px
+}
+
+@media (max-width:616px) {
+    .sbisru-Carousel-item {
+        height: 100%;
+        margin-bottom: 0
+    }
+}
+
+.sbisru-Carousel-icon {
+    width: 48px;
+    height: 48px;
+    padding-bottom: 4px
+}
+
+.sbisru-Carousel-arrow {
+    color: var(--color-white);
+    opacity: 0;
+    padding-top: 2px;
+    padding-left: 4px;
+    display: inline
+}
+
+@keyframes translate-wrap {
+    0% {
+        transform: translate(0, 0)
+    }
+
+    to {
+        transform: translateY(33.3333%)
+    }
+}
+
+.sbisru-Carousel-link {
+    width: 100%;
+    height: 100%;
+    display: block
+}
+
+.ws-is-hover .sbisru-Carousel-link:hover .sbisru-Carousel-item {
+    background: var(--color-hover);
+    color: var(--color-white);
+    cursor: pointer
+}
+
+@media (min-width:616px) {
+    .ws-is-hover .sbisru-Carousel-link:hover .sbisru-Carousel-item {
+        transition: transform .12s linear;
+        transform: translate(10px)
+    }
+}
+
+.ws-is-hover .sbisru-Carousel-link:hover .sbisru-Carousel-icon path {
+    fill: var(--color-white)
+}
+
+.ws-is-hover .sbisru-Carousel-link:hover .sbisru-Carousel-arrow {
+    opacity: .6
+}
+
+.sbisru-Carousel--shadow {
+    pointer-events: none
+}
+
+@media (min-width:617px) {
+    .sbisru-Carousel--shadow {
+        background: linear-gradient(180deg, var(--color-shadow-1) 0%, var(--color-shadow-2) 100%);
+        z-index: 2;
+        width: calc(100% + 12px);
+        height: 46px;
+        position: absolute;
+        right: -12px
+    }
+}
+
+.sbisru-Carousel--shadow-bottom {
+    bottom: -2px;
+    transform: rotate(-180deg)
+}
+
+.sbisru-Carousel--shadow-top {
+    top: 0
+}
+
+.sbisru-Carousel__theme--retail {
+    --color-item: #ffffff80;
+    --color-shadow-1: #e8e8ed;
+    --color-shadow-2: #f1f1f400;
+    --color-text: var(--text-color-main);
+    --color-hover: #09aeb3;
+    --color-border: none
+}

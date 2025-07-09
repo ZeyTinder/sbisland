@@ -1,0 +1,24 @@
+.sbisru-Header-Submenu {
+    color: var(--text-color-main-3);
+    white-space: nowrap;
+    font-size: 15px;
+    line-height: 20px;
+    position: relative
+}
+
+.sbisru-Header-Submenu__value {
+    cursor: pointer
+}
+
+.sbisru-Header-Submenu__expand {
+    font-family: cbuc-icons;
+    font-size: 9px;
+    font-weight: var(--font-weight-bold);
+    margin-left: 2px
+}
+
+.sbisru-Header-Submenu__longest-value {
+    opacity: 0;
+    pointer-events: none;
+    height: 0
+}

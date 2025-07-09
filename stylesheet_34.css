@@ -1,0 +1,81 @@
+.sbisru-Equipment--text-brand {
+    white-space: nowrap;
+    color: var(--text-color-brand)
+}
+
+.sbisru-Equipment--text-brand:hover {
+    color: var(--text-color-brand)
+}
+
+.sbisru-Equipment--vertical-bottom {
+    vertical-align: bottom
+}
+
+.sbisru-Equipment--heading-gap {
+    gap: 12px
+}
+
+.sbisru-Equipment--priority {
+    z-index: 1;
+    position: relative
+}
+
+.sbisru-Equipment--height100 {
+    height: 100%
+}
+
+.sbisru-Equipment-tile {
+    border-radius: var(--section-radius)
+}
+
+.sbisru-Equipment-tile--theme-white-on-gray {
+    background: var(--color-white)
+}
+
+@media (max-width:812px) {}
+
+.sbisru-Equipment-tile--description {
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    font-size: 16px;
+    display: -webkit-box;
+    overflow: hidden
+}
+
+.sbisru-Equipment-tile--price {
+    font-size: 24px
+}
+
+@media (max-width:812px) {
+    .sbisru-Equipment-tile--price {
+        font-size: 20px
+    }
+}
+
+.sbisru-Equipment-tile:active,
+.ws-is-hover .sbisru-Equipment-tile:hover {
+    cursor: pointer;
+    box-shadow: 0 0 30px #00000026
+}
+
+.sbisru-Equipment--price-discount {
+    color: var(--text-color-gray);
+    text-decoration: line-through;
+    -webkit-text-decoration-color: var(--color-danger);
+    text-decoration-color: var(--color-danger);
+    font-size: 22px
+}
+
+@media (max-width:812px) {
+    .sbisru-Equipment--price-discount {
+        font-size: 16px
+    }
+}
+
+.sbisru-Equipment-shadow--margin {
+    margin: -32px
+}
+
+.sbisru-Touch-Scroll .sbisru-Equipment-shadow-pb {
+    padding-bottom: 112px
+}

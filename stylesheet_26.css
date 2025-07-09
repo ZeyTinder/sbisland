@@ -1,0 +1,5 @@
+.sbisru-Video-widget--desc {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden
+}

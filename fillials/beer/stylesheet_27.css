@@ -1,0 +1,889 @@
+.sbisru-Retail-main--offset {
+    padding-top: 88px
+}
+
+@media (max-width:616px) {
+    .sbisru-Retail-main--offset {
+        padding-top: 64px
+    }
+}
+
+.sbisru-Retail-main {
+    font-style: normal;
+    font-weight: 400;
+    font-size: var(--text-main-fs);
+    line-height: var(--text-main-lh);
+    color: var(--text-color-main-3);
+    padding-bottom: 16px
+}
+
+.sbisru-Retail-main--bg {
+    background-color: var(--page-bg)
+}
+
+.sbisru-Retail-cases-first-block {
+    padding-top: 56px
+}
+
+@media (max-width:812px) {
+    .sbisru-Retail-cases-first-block {
+        padding-top: 32px;
+        padding-bottom: 88px
+    }
+}
+
+@media (max-width:616px) {
+    .sbisru-Retail-cases-first-block {
+        padding-bottom: 100px
+    }
+}
+
+.sbisru-Retail--relative {
+    position: relative
+}
+
+.sbisru-Retail--lowercase {
+    /* text-transform: lowercase */
+}
+
+@media (max-width:812px) {}
+
+.sbisru-Retail--hidden {
+    overflow: hidden
+}
+
+@media (max-width:812px) {
+    .sbisru-Retail--wrap {
+        flex-wrap: wrap
+    }
+}
+
+.sbisru-Retail-image {
+    max-width: 100%;
+    height: auto;
+    display: block
+}
+
+@media (min-width:1024px) {
+    .sbisru-Retail-image--wd {
+        max-width: initial
+    }
+}
+
+.sbisru-Retail-white-block {
+    background-color: var(--color-white);
+    border-radius: var(--section-radius)
+}
+
+.sbisru-Retail-main-block {
+    background-color: var(--page-bg);
+    border-radius: var(--section-radius)
+}
+
+.sbisru-Retail-light-gray-block {
+    background-color: var(--bg-section-gray);
+    border-radius: var(--section-radius)
+}
+
+.sbisru-Retail-dark-block {
+    background-color: var(--color-dark-blue);
+    border-radius: var(--section-radius)
+}
+
+@media (max-width:616px) {}
+
+.sbisru-Retail-pt56 {
+    padding-top: 56px
+}
+
+@media (max-width:812px) {
+    .sbisru-Retail-pt56 {
+        padding-top: 32px
+    }
+}
+
+@media (max-width:616px) {
+    .sbisru-Retail-pt56 {
+        padding-top: 24px
+    }
+}
+
+.sbisru-Retail-pb100 {
+    margin-top: -60px;
+    padding-bottom: 160px
+}
+
+@media (max-width:812px) {
+    .sbisru-Retail-pb100 {
+        padding-bottom: 116px
+    }
+}
+
+@media (max-width:616px) {
+    .sbisru-Retail-pb100 {
+        padding-bottom: 100px
+    }
+}
+
+.sbisru-Retail--negative-mb {
+    margin-bottom: -60px
+}
+
+@media (max-width:616px) {
+    .sbisru-Retail--negative-mb {
+        margin-bottom: -80px
+    }
+}
+
+@media (max-width:812px) {}
+
+@media (max-width:616px) {}
+
+@media (min-width:812px) {}
+
+@media (max-width:616px) {}
+
+.sbisru-Retail-tile {
+    box-sizing: border-box;
+    background-color: var(--color-white);
+    border-radius: var(--section-radius);
+    height: 100%;
+    min-height: 234px;
+    position: relative;
+    overflow: hidden
+}
+
+@media (min-width:1024px) {
+    .sbisru-Retail-tile {
+        min-height: 272px
+    }
+}
+
+@media (max-width:616px) {
+    .sbisru-Retail-tile {
+        border-radius: var(--section-radius-sm)
+    }
+}
+
+.sbisru-Retail-tile--dark {
+    background-color: var(--color-dark-blue)
+}
+
+@media (min-width:421px) {
+    .sbisru-Retail-tile--min {
+        min-height: 130px
+    }
+}
+
+@media (min-width:1025px) {
+    .sbisru-Retail-tile--big {
+        min-height: 556px
+    }
+}
+
+@media (min-width:616px) and (max-width:1024px) {
+    .sbisru-Retail-tile--big {
+        min-height: 440px
+    }
+}
+
+@media (max-width:812px) {}
+
+@media (max-width:616px) {
+    .sbisru-Retail-tile--maximize-sm {
+        min-height: 0
+    }
+}
+
+.sbisru-Retail-tile--padding {
+    padding: 18px 20px 8px
+}
+
+@media (max-width:616px) {
+    .sbisru-Retail-tile--padding {
+        padding-top: 8px;
+        padding-left: 16px;
+        padding-right: 16px
+    }
+}
+
+.sbisru-Retail-tile--padding-r0 {
+    padding-right: 0
+}
+
+@media (max-width:812px) {
+    .sbisru-Retail-tile--padding-r0 {
+        padding-right: 20px
+    }
+}
+
+@media (max-width:616px) {
+    .sbisru-Retail-tile--padding-r0 {
+        padding-right: 16px
+    }
+}
+
+.sbisru-Retail-tile--padding-b0 {
+    padding-bottom: 0
+}
+
+.sbisru-Retail-tile--padding-t0 {
+    padding-top: 0
+}
+
+@media (min-width:616px) and (max-width:812px) {
+    .sbisru-Retail-tile--spec {
+        min-height: 234px
+    }
+}
+
+@media (max-width:616px) {
+    .sbisru-Retail-tile--spec {
+        min-height: 144px
+    }
+}
+
+.sbisru-Retail-colored-circle {
+    border-radius: 50%;
+    width: 1px;
+    height: 1px;
+    position: absolute
+}
+
+.sbisru-Retail-colored-circle--RuleMoney-1 {
+    top: 48%;
+    left: 25%;
+    box-shadow: 0 0 450px 250px #f8704526
+}
+
+.sbisru-Retail-colored-circle--RuleMoney-2 {
+    top: 50%;
+    right: 23%;
+    box-shadow: 0 0 250px 200px #09aeb326
+}
+
+@media (max-width:812px) {
+    .sbisru-Retail-colored-circle--RuleMoney-2 {
+        top: 85%;
+        right: 0
+    }
+}
+
+@media (max-width:616px) {
+    .sbisru-Retail-colored-circle--RuleMoney-2 {
+        right: 15%;
+        box-shadow: 0 0 250px 250px #f870451a
+    }
+}
+
+.sbisru-Retail-image--right {
+    margin-left: auto
+}
+
+.sbisru-Retail-image--center {
+    margin-left: auto;
+    margin-right: auto
+}
+
+.sbisru-Retail--height100 {
+    box-sizing: border-box;
+    height: 100%
+}
+
+@media (min-width:616px) and (max-width:812px) {}
+
+.sbisru-Retail-text--white-opacity {
+    color: var(--color-gray-74)
+}
+
+@media (max-width:616px) {
+    .sbisru-Retail--order-sm {
+        order: 3
+    }
+}
+
+.sbisru-Retail-maxwidth-3 {
+    box-sizing: border-box;
+    max-width: 282px
+}
+
+.sbisru-Retail-maxwidth-5 {
+    box-sizing: border-box;
+    max-width: 478px
+}
+
+@media (max-width:616px) {}
+
+@media (max-width:616px) {}
+
+@media (max-width:616px) {}
+
+@media (max-width:616px) {}
+
+@media (max-width:616px) {}
+
+@media (max-width:616px) {}
+
+@media (max-width:616px) {}
+
+@media (max-width:616px) {}
+
+@media (max-width:812px) {}
+
+@media (max-width:812px) {}
+
+@media (max-width:812px) {}
+
+@media (max-width:812px) {}
+
+@media (max-width:616px) {}
+
+.sbisru-Retail-li {
+    padding-left: 16px;
+    position: relative
+}
+
+.sbisru-Retail-li:before {
+    content: "•";
+    position: absolute;
+    top: 0;
+    left: 0
+}
+
+@media (min-width:1025px) {
+    .ws-is-no-touch .sbisru-Retail--scrollbar-fix {
+        padding-bottom: 143px
+    }
+}
+
+.sbisru-Retail-automation-list {
+    border-radius: var(--section-radius)
+}
+
+@media (max-width:616px) {
+    .sbisru-Retail-automation-list {
+        border-radius: var(--section-radius-sm)
+    }
+}
+
+.sbisru-Retail-automation-list-white {
+    background-color: var(--color-white)
+}
+
+.sbisru-Retail-automation-list-pb {
+    padding-bottom: 100px
+}
+
+@media (max-width:812px) {
+    .sbisru-Retail-automation-list-pb {
+        padding-bottom: 56px
+    }
+}
+
+@media (max-width:616px) {
+    .sbisru-Retail-automation-list-pb {
+        padding-bottom: 40px
+    }
+}
+
+.sbisru-Retail-automation-list__number {
+    color: var(--color-white);
+    background-color: var(--color-secondary);
+    font-size: 22px;
+    font-weight: var(--font-weight-bold);
+    border-radius: 50%;
+    flex-basis: 40px;
+    max-width: 40px;
+    height: 40px;
+    position: relative
+}
+
+.sbisru-Retail-automation-list__padding {
+    padding: 20px 18px 32px
+}
+
+@media (max-width:616px) {
+    .sbisru-Retail-automation-list__padding {
+        padding: 8px 16px 16px
+    }
+}
+
+@media (max-width:1024px) {}
+
+@media (max-width:616px) {}
+
+@media (max-width:812px) {}
+
+@media (max-width:616px) {}
+
+@media (max-width:812px) {}
+
+@media (max-width:616px) {}
+
+@media (max-width:812px) {}
+
+@media (min-width:616px) {}
+
+@media (max-width:616px) {}
+
+@media (max-width:812px) {}
+
+@media (max-width:616px) {}
+
+@media (max-width:812px) {}
+
+.sbisru-Retail__link-more {
+    color: var(--color-secondary);
+    display: inline-block
+}
+
+.sbisru-Retail__link-more-text {
+    border-bottom: 1px solid #0000
+}
+
+.ws-is-hover .sbisru-Retail__link-more:hover .sbisru-Retail__link-more-text,
+.ws-is-touch .sbisru-Retail__link-more:active .sbisru-Retail__link-more-text {
+    border-bottom: 1px solid var(--color-secondary)
+}
+
+.sbisru-Retail__link-more__icon {
+    height: .7em;
+    margin-left: 4px;
+    font-family: cbuc-icons, sans-serif;
+    font-size: .7em;
+    line-height: .7em;
+    display: inline-block
+}
+
+@media (max-width:812px) and (min-width:617px) {}
+
+.sbisru-Retail-image--courier {
+    border-radius: 16px
+}
+
+.sbisru-Retail--inline {
+    display: inline
+}
+
+@media (max-width:616px) {}
+
+@media (max-width:616px) {
+    .sbisru-Retail-Beer .sbisru-Retail-Beer-banner {
+        background-size: cover
+    }
+}
+
+.sbisru-Retail-Beer-title-width {
+    box-sizing: border-box;
+    max-width: 772px
+}
+
+@media (max-width:1024px) {
+    .sbisru-Retail-Beer-title-width {
+        max-width: 674px
+    }
+}
+
+@media (max-width:616px) {
+    .sbisru-Retail-Beer-title-width {
+        max-width: 478px
+    }
+}
+
+.sbisru-Retail-Beer-maxwidth-5 {
+    box-sizing: border-box;
+    max-width: 478px
+}
+
+.sbisru-Retail-Beer--nowrap-text {
+    white-space: nowrap
+}
+
+@media (min-width:616px) and (max-width:812px) {
+    .sbisru-Retail-Beer-image--kassa {
+        max-width: 174.434%
+    }
+}
+
+@media (max-width:812px) {
+    .sbisru-Retail-Beer-image--doki {
+        margin-left: -36px
+    }
+}
+
+@media (max-width:616px) {
+    .sbisru-Retail-Beer-image--doki {
+        margin-left: -48px
+    }
+}
+
+@media (max-width:812px) {}
+
+@media (max-width:420px) {}
+
+@media (max-width:812px) {
+    .sbisru-Retail-Beer-image--accounting {
+        display: none
+    }
+}
+
+@media (max-width:616px) {
+    .sbisru-Retail-Beer-image--accounting {
+        display: block
+    }
+}
+
+@media (max-width:812px) {
+    .sbisru-Retail-Beer-image--loyalty {
+        max-width: 170.362%;
+        padding-top: 56.4px
+    }
+}
+
+@media (max-width:616px) {
+    .sbisru-Retail-Beer-image--loyalty {
+        max-width: 130.232%
+    }
+}
+
+@media (min-width:812px) and (max-width:1024px) {
+    .sbisru-Retail-Beer-image--wd {
+        max-width: 50.3167%
+    }
+
+    .sbisru-Retail-Beer-image--logos {
+        max-width: 50.5495%
+    }
+
+    .sbisru-Retail-Beer-image--gift {
+        max-width: 50.3167%
+    }
+}
+
+@media (max-width:812px) {
+    .sbisru-Retail-Beer-image--gift {
+        width: 89.7256%
+    }
+}
+
+@media (min-width:1024px) {
+    .sbisru-Retail-Beer-image--sale {
+        margin-right: 40px
+    }
+}
+
+@media (min-width:812px) and (max-width:1023px) {
+    .sbisru-Retail-Beer-image--sale {
+        margin-right: 24px
+    }
+}
+
+@media (min-width:616px) and (max-width:812px) {
+    .sbisru-Retail-Beer-image--finance {
+        max-width: 171.429%
+    }
+}
+
+@media (min-width:812px) {
+    .sbisru-Retail-Beer-image--app {
+        margin-top: -32px
+    }
+}
+
+@media (max-width:812px) {
+    .sbisru-Retail-Beer-image--app {
+        max-width: 80.8905%;
+        margin-top: 48px
+    }
+}
+
+@media (min-width:616px) and (max-width:812px) {
+    .sbisru-Retail-Beer-image--video {
+        display: none
+    }
+}
+
+@media (max-width:616px) {
+    .sbisru-Retail-Beer-image--video {
+        display: block
+    }
+}
+
+@media (max-width:812px) {
+    .sbisru-Retail-Beer--order0 {
+        order: 0
+    }
+
+    .sbisru-Retail-Beer--order1 {
+        order: 1
+    }
+
+    .sbisru-Retail-Beer--order3 {
+        order: 3
+    }
+
+    .sbisru-Retail-Beer--order4 {
+        order: 4
+    }
+
+    .sbisru-Retail-Beer--order5 {
+        order: 5
+    }
+
+    .sbisru-Retail-Beer--order6 {
+        order: 6
+    }
+
+    .sbisru-Retail-Beer--order7 {
+        order: 7
+    }
+}
+
+.sbisru-Retail-Beer-colored-circle--1 {
+    top: 15%;
+    right: 22%;
+    box-shadow: 0 0 300px 225px #d353681a
+}
+
+@media (max-width:812px) {
+    .sbisru-Retail-Beer-colored-circle--1 {
+        box-shadow: 0 0 300px 225px #d353681a
+    }
+}
+
+.sbisru-Retail-Beer-colored-circle--2 {
+    top: 30%;
+    left: 27%;
+    box-shadow: 0 0 500px 340px #316ee421
+}
+
+.sbisru-Retail-Beer-colored-circle--3 {
+    top: 50%;
+    right: 30%;
+    box-shadow: 0 0 500px 340px #24fff221
+}
+
+@media (max-width:812px) {
+    .sbisru-Retail-Beer-colored-circle--3 {
+        box-shadow: 0 0 500px 220px #24fff221
+    }
+}
+
+.sbisru-Retail-Beer-colored-circle--4 {
+    top: 75%;
+    left: 35%;
+    box-shadow: 0 0 500px 340px #ffcc994d
+}
+
+@media (max-width:812px) {
+    .sbisru-Retail-Beer-colored-circle--4 {
+        box-shadow: 0 0 500px 250px #ffcc994d
+    }
+}
+
+@media (max-width:616px) {
+    .sbisru-Retail-Beer-colored-circle--4 {
+        top: 65%
+    }
+}
+
+.sbisru-Retail-Beer-colored-circle--5 {
+    top: 85%;
+    right: 23%;
+    box-shadow: 0 0 500px 340px #a3c62621
+}
+
+@media (max-width:812px) {
+    .sbisru-Retail-Beer-colored-circle--5 {
+        right: 5%;
+        box-shadow: 0 0 500px 290px #a3c62621
+    }
+}
+
+.sbisru-Retail-Beer-colored-circle--7 {
+    top: 52%;
+    right: 16%;
+    box-shadow: 0 0 500px 200px #fc93
+}
+
+.sbisru-Retail-Beer-colored-circle--8 {
+    top: 25%;
+    left: 23%;
+    box-shadow: 0 0 500px 150px #316ee421
+}
+
+.sbisru-Retail-Beer-colored-circle--9 {
+    top: 65%;
+    left: 50%;
+    box-shadow: 0 0 500px 400px #d353681a
+}
+
+@media (max-width:812px) {
+    .sbisru-Retail-Beer-colored-circle--9 {
+        left: 15%
+    }
+}
+
+.sbisru-Retail-Beer-colored-circle--10 {
+    bottom: 0;
+    left: 10%;
+    box-shadow: 0 0 500px 400px #24fff21a
+}
+
+@media (max-width:812px) {
+    .sbisru-Retail-Beer-colored-circle--10 {
+        bottom: 25%;
+        left: 0;
+        box-shadow: 0 0 500px 200px #24fff21a
+    }
+}
+
+.sbisru-Retail-Beer-colored-circle--11 {
+    bottom: 20%;
+    right: 15%;
+    box-shadow: 0 0 500px 400px #316ee421
+}
+
+@media (max-width:812px) {
+    .sbisru-Retail-Beer-colored-circle--11 {
+        bottom: 70%;
+        right: 0;
+        box-shadow: 0 0 500px 400px #316ee41a
+    }
+}
+
+.sbisru-Retail-Beer-colored-circle--12 {
+    top: 27%;
+    left: 25%;
+    box-shadow: 0 0 500px 250px #4a7ee266
+}
+
+@media (min-width:2408px) {
+    .sbisru-Retail-Beer-colored-circle--12 {
+        opacity: .35
+    }
+}
+
+@media (max-width:616px) {
+    .sbisru-Retail-Beer-colored-circle--12 {
+        top: 12%;
+        box-shadow: 0 0 500px 330px #4a7ee266
+    }
+}
+
+.sbisru-Retail-Beer-colored-circle--13 {
+    top: 40%;
+    right: 35%;
+    box-shadow: 0 0 530px 350px #11e0e866
+}
+
+@media (min-width:2408px) {
+    .sbisru-Retail-Beer-colored-circle--13 {
+        opacity: .35
+    }
+}
+
+.sbisru-Retail-Beer-colored-circle--14 {
+    top: 60%;
+    left: 20%;
+    box-shadow: 0 0 400px 150px #f8704580
+}
+
+@media (min-width:2408px) {
+    .sbisru-Retail-Beer-colored-circle--14 {
+        opacity: .35
+    }
+}
+
+.sbisru-Retail-Beer-colored-circle--15 {
+    bottom: 10%;
+    left: 50%;
+    box-shadow: 0 0 534px 200px #619fe566
+}
+
+@media (max-width:616px) {
+    .sbisru-Retail-Beer-colored-circle--15 {
+        bottom: 17%;
+        left: 80%;
+        box-shadow: 0 0 500px 330px #11e0e866
+    }
+}
+
+.sbisru-Retail-Beer-colored-circle--16 {
+    top: 50%;
+    left: 30%;
+    box-shadow: 0 0 500px 220px #24fff233
+}
+
+@media (max-width:812px) {
+    .sbisru-Retail-Beer-colored-circle--16 {
+        top: 80%;
+        left: 20%
+    }
+}
+
+.sbisru-Retail-Beer-colored-circle--17 {
+    top: 50%;
+    right: 30%;
+    box-shadow: 0 0 500px 470px #8e44ad14
+}
+
+.sbisru-Retail-Beer-colored-circle--18 {
+    top: 17%;
+    left: 25%;
+    box-shadow: 0 0 500px 215px #f8704526
+}
+
+.sbisru-Retail-Beer-colored-circle--19 {
+    top: 10%;
+    right: 10%;
+    box-shadow: 0 0 500px 240px #4557f814
+}
+
+.sbisru-Retail-Beer-colored-circle--20 {
+    top: 60%;
+    left: 10%;
+    box-shadow: 0 0 500px 320px #8e44ad14
+}
+
+.sbisru-Retail-Beer-colored-circle--21 {
+    top: 65%;
+    right: 25%;
+    box-shadow: 0 0 550px 320px #24fff21f
+}
+
+.sbisru-Retail-Beer-colored-circle--22 {
+    bottom: 0%;
+    right: 25%;
+    box-shadow: 0 0 200px 150px #4a7ee226
+}
+
+.sbisru-Retail-Beer-colored-circle--24 {
+    bottom: 4%;
+    right: 25%;
+    box-shadow: 0 0 550px 400px #694ae20f
+}
+
+.sbisru-Retail-Beer-gray-block {
+    border-radius: var(--section-radius);
+    background-color: #f9f9fb
+}
+
+.sbisru-Retail-Beer-pb100 {
+    margin-top: -60px;
+    padding-bottom: 100px
+}
+
+@media (max-width:812px) {
+    .sbisru-Retail-Beer-pb100 {
+        padding-bottom: 86px
+    }
+}
+
+@media (max-width:616px) {
+    .sbisru-Retail-Beer-pb100 {
+        padding-bottom: 80px
+    }
+}
+
+@media (min-width:1025px) {}
